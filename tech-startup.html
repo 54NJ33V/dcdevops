@@ -1,0 +1,640 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laralink">
+    <!-- Favicon Icon -->
+    <link rel="icon" href="assets/img/favicon.png">
+    <!-- Site Title -->
+    <title>DataClap DevOps - DevOps as a Service</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="cs_dark">
+    <div class="cursor" id="client_cursor">View</div>
+    <!-- Start Preloader -->
+    <div class="cs_perloader">
+      <div class="cs_perloader_in">
+        <div class="cs_perloader_dots_wrap">
+          <div class="cs_perloader_dots"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <span class="cs_perloader_text">Loading...</span>
+    </div>
+    <!-- End Preloader -->
+    <!-- Start Header Section -->
+    <header class="cs_site_header cs_style_1 cs_color_1 cs_sticky_header cs_primary_color">
+      <div class="cs_main_header">
+        <div class="container">
+          <div class="cs_main_header_in">
+            <div class="cs_main_header_left">
+              <a class="cs_site_branding" href="index.html">
+                <img src="assets/img/logo_white.svg" alt="Logo">
+              </a>
+            </div>
+            <div class="cs_main_header_center">
+              <div class="cs_nav cs_medium cs_primary_font">
+                <ul class="cs_nav_list">
+                  <li class="menu-item-has-children cs_mega_menu">
+                    <a href="index.html">Home</a>
+                    <ul class="cs_mega_wrapper">
+                      <li class="menu-item-has-children">
+                        <a href="">Dark Version</a>
+                        <ul>
+                          <li><a href="index.html">Creative Agency</a></li>
+                          <li><a href="marketing-agency.html">Marketing Agency</a></li>
+                          <li><a href="studio-agency.html">Studio Agency</a></li>
+                          <li><a href="digital-agency.html">Digital Agency</a></li>
+                          <li><a href="tech-startup.html">Tech Startup</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="">Light Version</a>
+                        <ul>
+                          <li><a href="index-light.html">Creative Agency</a></li>
+                          <li><a href="marketing-agency-light.html">Marketing Agency</a></li>
+                          <li><a href="studio-agency-light.html">Studio Agency</a></li>
+                          <li><a href="digital-agency-light.html">Digital Agency</a></li>
+                          <li><a href="tech-startup-light.html">Tech Startup</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="service.html">Service</a>
+                    <ul>
+                      <li><a href="service.html">Service</a></li>
+                      <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="blog.html">Blog</a>
+                    <ul>
+                      <li><a href="blog.html">Blog Standard</a></li>
+                      <li><a href="blog-list.html">Blog List</a></li>
+                      <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="shop.html">Shop</a>
+                    <ul>
+                      <li>
+                        <a href="shop.html">Our Shop</a>
+                      </li>
+                      <li>
+                        <a href="shop-product-details.html">Shop Details</a>
+                      </li>
+                      <li>
+                        <a href="shop-cart.html">Cart</a>
+                      </li>
+                      <li>
+                        <a href="shop-checkout.html">Checkout</a>
+                      </li>
+                      <li>
+                        <a href="shop-order-recived.html">Success Order</a>
+                      </li>
+                      <li>
+                        <a href="shop-wishlist.html">Wishlist</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="">Pages</a>
+                    <ul>
+                      <li><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                      <li><a href="case-study-details.html">Case Study Details</a></li>
+                      <li><a href="team.html">Team</a></li>
+                      <li><a href="team-details.html">Team Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="cs_main_header_right">
+              <a href="contact-light.html" class="cs_btn cs_style_1 cs_btn_white">Getting Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Hero -->
+    <section class="cs_hero cs_style_5 position-relative text-center cs_center cs_ripple_activate cs_bg_filed" data-src="assets/img/tech-startup/hero-bg.jpeg">
+      <div class="container">
+        <div class="cs_hero_text position-relative">
+       <!--   <p class="cs_hero_top_title wow zoomIn" data-wow-duration="1.1s" data-wow-delay="0.2s">
+            <img src="assets/img/icons/flower.svg" alt="Icon">
+            Award Wining Startup on 2023
+          </p> -->
+          <h1 class="cs_hero_title cs_fs_68 cs_white_color">Achieve DevOps Efficiency <br>Without the Hassle</h1>
+          <p class="cs_hero_subtitle">Frustrated with slow deployments and siloed teams? <br>Achieve DevOps efficiency with our Managed Services. Focus on innovation, we'll handle the automation and streamline your development pipeline.</p>
+          <div class="cs_hero_btns">
+            <a href="portfolio.html" class="cs_btn cs_style_1 cs_btn_accent">Talk to us
+              <span><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a href="portfolio.html" class="cs_btn cs_style_1 cs_btn_accent">Check pricing
+              <span><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="background-wrap">
+        <div class="bubble cs_hero_shape_1">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_2">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_3">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_4">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_5">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_6">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_7">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_8">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_9">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+        <div class="bubble cs_hero_shape_10">
+          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+      
+      <!-- Start About Section -->
+    <section class="cs_shape_animation_1">
+      <div class="cs_height_125 cs_height_lg_70"></div>
+      <div class="cs_shape_1 position-absolute">
+        <svg width="57" height="41" viewbox="0 0 57 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5" d="M55.1923 32.7347C52.209 37.0618 42.704 43.3879 40.3199 34.8097C39.0585 30.2359 42.6536 24.5172 43.1266 19.9687C43.8204 13.2821 39.973 5.41874 32.4359 6.05135C31.8886 6.10385 31.3452 6.19047 30.8086 6.31072C29.5308 4.21019 27.6918 2.5107 25.5002 1.40489C23.3085 0.299087 20.8519 -0.168816 18.4087 0.0542238C11.0797 0.743766 5.31489 7.39247 2.40097 13.6616C0.297443 17.9159 -0.0470809 22.831 1.44227 27.3386C2.02253 28.9897 4.52649 28.3381 4.07868 26.6111C2.33789 19.994 6.55742 12.4976 11.1238 7.99978C15.6903 3.50194 23.1517 2.572 26.8919 7.71511C22.3191 9.96086 18.2321 14.1614 15.6019 17.957C12.4483 22.5245 9.15598 31.3746 15.1794 35.2589C21.0135 39.0165 27.7181 36.5241 30.9852 30.8306C34.3217 24.9727 34.2461 16.9828 32.6377 10.6251C32.4379 9.84013 32.1764 9.07227 31.8556 8.32873C34.7948 7.65817 37.6078 8.80319 39.4747 11.7765C42.4517 16.502 40.9317 21.6009 39.5126 26.5289C38.1691 31.1785 36.6617 38.618 42.9185 40.5728C48.4057 42.2935 54.6246 38.6054 56.4853 33.2978C56.7691 32.507 55.6275 32.1085 55.1923 32.7347ZM27.8253 28.0345C26.6396 30.7231 24.5519 32.7537 21.5181 32.9751C16.3336 33.3547 15.3434 29.0909 16.4723 25.0739C18.1122 19.3298 23.2274 13.4845 28.1407 10.0684C28.1664 10.1199 28.1896 10.1727 28.2101 10.2266C30.2749 16.0071 30.1378 22.349 27.8253 28.0345Z" fill="#4F4747"></path>
+        </svg>          
+      </div>
+      <div class="container">
+        <div class="row cs_gap_y_40 align-items-center">
+          <div class="col-lg-5">
+            <div class="cs_img_card cs_style_1 position-relative">
+              <img src="assets/img/creative-agency/about_1.jpeg" alt="About" class="cs_radius_5">
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <div class="cs_section_heading cs_style_1">
+              <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">Who We Are</p>
+              <div class="cs_height_10 cs_height_lg_5"></div>
+              <h2 class="cs_section_title cs_fs_50 mb-0">DevOps Experts: Free Up Your Time, Boost Your Development</h2>
+              <div class="cs_height_30 cs_height_lg_30"></div>
+              <p class="m-0">Stop wasting time and resources! Focus on building groundbreaking software. Let our DevOps and SRE experts handle your infrastructure, operations, and CI/CD pipeline. We provide a custom-built Kubernetes platform, fully managed services, 24/7 support, and guaranteed SLAs. This means you get a reliable, high-performing development environment with constant support, freeing you to focus on what matters most –  innovation.</p>
+            </div>
+            <div class="cs_height_40 cs_height_lg_30"></div>
+            <ul class="cs_list cs_style_1 cs_primary_font cs_primary_color cs_semibold cs_mp0 cs_fs_21">
+              <li>
+                <i class="fa-regular fa-circle-check"></i>End to End Service
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i>Devops and SRE Specialists
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i>Well Established Workflow
+              </li>
+            </ul>
+            <div class="cs_height_40 cs_height_lg_30"></div>
+            <a href="about.html" class="cs_btn cs_style_1">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_185 cs_height_lg_75"></div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Brands  -->
+    <div class="cs_primary_bg">
+      <div class="cs_height_95 cs_height_lg_60"></div>
+      <div class="container">
+        <div class="cs_slider cs_slider_3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_1.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_2.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_3.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_4.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_5.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_6.svg" alt="Brand"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="text-center"><img src="assets/img/tech-startup/brand_1.svg" alt="Brand"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_95 cs_height_lg_60"></div>
+    </div>
+    <!-- End Brands  -->
+      
+      <!-- Start Services Section -->
+    <section class="cs_primary_bg">
+      <div class="cs_height_143 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 text-center">
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Services</p>
+          <div class="cs_height_10 cs_height_lg_5"></div>
+          <h2 class="cs_section_title cs_fs_50 mb-0 cs_white_color">Our core services</h2>
+        </div>
+        <div class="cs_height_85 cs_height_lg_45"></div>
+        <ul class="cs_image_box_1_list cs_color_1 cs_mp0">
+          <li>
+            <div class="cs_image_box cs_style_1">
+              <div class="cs_image_box_number cs_primary_color cs_primary_font cs_fs_38 cs_semibold">♾️</div>
+             
+              <div class="cs_image_box_info position-relative">
+                <h2 class="cs_image_box_title cs_fs_29 cs_semibold"><a href="service-details.html">DevOps as a Service</a></h2>
+                <p class="cs_image_box_subtitle mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                <a href="service-details.html" class="cs_image_box_btn cs_center position-absolute rounded-circle">
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="cs_image_box cs_style_1">
+              <div class="cs_image_box_number cs_primary_color cs_primary_font cs_fs_38 cs_semibold">🚀</div>
+              
+              <div class="cs_image_box_info position-relative">
+                <h2 class="cs_image_box_title cs_fs_29 cs_semibold"><a href="service-details.html">SRE Services</a></h2>
+                <p class="cs_image_box_subtitle mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                <a href="service-details.html" class="cs_image_box_btn cs_center position-absolute rounded-circle">
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="cs_image_box cs_style_1">
+              <div class="cs_image_box_number cs_primary_color cs_primary_font cs_fs_38 cs_semibold">⚠️</div>
+              
+              <div class="cs_image_box_info position-relative">
+                <h2 class="cs_image_box_title cs_fs_29 cs_semibold"><a href="service-details.html">DevOps Monitoring</a></h2>
+                <p class="cs_image_box_subtitle mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                <a href="service-details.html" class="cs_image_box_btn cs_center position-absolute rounded-circle">
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="cs_image_box cs_style_1">
+              <div class="cs_image_box_number cs_primary_color cs_primary_font cs_fs_38 cs_semibold">⚡</div>
+             
+              <div class="cs_image_box_info position-relative">
+                <h2 class="cs_image_box_title cs_fs_29 cs_semibold"><a href="service-details.html">CI/CD Service</a></h2>
+                <p class="cs_image_box_subtitle mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                <a href="service-details.html" class="cs_image_box_btn cs_center position-absolute rounded-circle">
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                  <svg width="30" height="29" viewbox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="cs_height_145 cs_height_lg_80"></div>
+    </section>
+    <!-- End Services Section -->
+   
+    <!-- Start About Us -->
+    <section class="cs_primary_bg">
+      <div class="cs_height_143 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 cs_type_2">
+          <div class="cs_section_heading_left">
+            <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">About Us</p>
+            <div class="cs_height_10 cs_height_lg_5"></div>
+            <h2 class="cs_section_title cs_fs_50 mb-0 cs_white_color wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">Imaginative solutions that drive <br>creativity & innovation.</h2>
+          </div>
+          <div class="cs_section_heading_right">
+            <a href="about.html" class="cs_btn cs_style_1 cs_btn_white">Learn More
+              <span><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="cs_height_85 cs_height_lg_45"></div>
+        <div class="row g-3">
+          <div class="col-lg-12">
+            <div class="cs_goal cs_radius_5 cs_bg_filed" data-src="assets/img/tech-startup/goal.jpeg">
+              <div class="cs_goal_text">
+                <p class="cs_goal_subtitle cs_white_color">Our Goal</p>
+                <h2 class="cs_goal_title mb-0 cs_fs_29 cs_semibold cs_white_color">Revolutionize industries with cutting-edge solutions.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cs_mission cs_radius_5">
+              <span class="cs_primary_color cs_radius_15">Our Mission</span>
+              <h2 class="cs_fs_29 cs_semibold">Empowering businesses through tech innovation.</h2>
+              <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cs_vision cs_radius_5">
+              <span class="cs_primary_color cs_radius_15">Our Vision</span>
+              <h2 class="cs_fs_29 cs_semibold">Transforming businesses, shaping a smarter world.</h2>
+              <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section>
+    <!-- End About Us -->
+    <!-- Start Service Section -->
+    <section>
+      <div class="cs_height_143 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Services</p>
+          <div class="cs_height_10 cs_height_lg_5"></div>
+          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our aim is to improve tech based <br> solution on business</h2>
+        </div>
+        <div class="cs_height_85 cs_height_lg_45"></div>
+        <div class="row g-3">
+          <div class="col-lg-6 col-xl-3">
+            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_1.svg" alt="Icon"></div>
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Chat Bot</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
+              <a href="service-details.html" class="cs_iconbox_btn">
+                <svg width="46" height="24" viewbox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_2.svg" alt="Icon"></div>
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Email Client</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
+              <a href="service-details.html" class="cs_iconbox_btn">
+                <svg width="46" height="24" viewbox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_3.svg" alt="Icon"></div>
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">AI Algorithm</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
+              <a href="service-details.html" class="cs_iconbox_btn">
+                <svg width="46" height="24" viewbox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3">
+            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_4.svg" alt="Icon"></div>
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Web Solution</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
+              <a href="service-details.html" class="cs_iconbox_btn">
+                <svg width="46" height="24" viewbox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+   
+    <!-- Start Funfact Section -->
+    <div>
+      <div class="cs_height_125 cs_height_lg_70"></div>
+      <div class="container">
+        <div class="cs_counter_1_wrap">
+          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
+            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="30" class="odometer"></span>+</div>
+            <p class="cs_counter_title mb-0">years of combined experience</p>
+          </div>
+          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
+            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="24" class="odometer"></span>/7</div>
+            <p class="cs_counter_title mb-0">maintenance with SLA</p>
+          </div>
+          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
+            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="10" class="odometer"></span>+</div>
+            <p class="cs_counter_title mb-0">skilled team members</p>
+          </div>
+          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
+            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="100" class="odometer"></span>+</div>
+            <p class="cs_counter_title mb-0">applications running in production</p>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_125 cs_height_lg_70"></div>
+    </div>
+    <!-- End Funfact Section -->
+   
+     <!-- Start Moving Text -->
+    <div class="cs_height_135 cs_height_lg_70"></div>
+    <div class="cs_moving_text_wrap cs_style_1 cs_fs_68 text-uppercase cs_bold cs_primary_font">
+      <div class="cs_moving_text_in">
+        <div class="cs_moving_text">Devops as a service</div>
+          <div class="cs_moving_text">Devops consulting</div>
+        <div class="cs_moving_text">Continuous Integration/Continuous Deployment</div>
+          
+          <div class="cs_moving_text">Site Reliability Engineeering</div>
+      </div>
+    </div>
+    <!-- End Moving Text -->
+    <!-- Start Brands  -->
+    <div class="cs_height_84 cs_height_lg_50"></div>
+    <div class="container">
+      <div class="cs_brands cs_style_1 wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_1_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_2_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_3_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_4_dark.svg" alt="Brand"></div>
+      </div>
+    </div>
+    <div class="cs_height_135 cs_height_lg_80"></div>
+    <!-- End Brands  -->
+   
+    <!-- Start CTA Section -->
+    <section>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+      <div class="container">
+        <div class="cs_cta cs_style_1 cs_bg_filed position-relative cs_radius_5 overflow-hidden text-center" data-src="assets/img/tech-startup/cta_bg.jpeg">
+          <div class="cs_cta_in position-relative">
+            <h2 class="cs_cta_title cs_fs_50 cs_white_color mb-0">Is there a specific project or goal that you have in mind?</h2>
+            <div class="cs_height_45 cs_height_lg_30"></div>
+            <a href="contact.html" class="cs_btn cs_style_1 cs_btn_white">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="cs_height_150 cs_height_lg_80"></div>
+    </section>
+    <!-- End CTA Section -->
+    <!-- Start Footer -->
+    <footer class="cs_fooer cs_bg_filed" data-src="assets/img/footer_bg.jpeg">
+      <div class="cs_fooer_main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="cs_footer_item">
+                <div class="cs_text_widget">
+                  <img src="assets/img/logo_white.svg" alt="Logo">
+                </div>
+                <ul class="cs_menu_widget cs_mp0">
+                  <li>5553 Jay Path Apt. 908</li>
+                  <li>+44 454 7800 112</li>
+                  <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="61080f070e211b0817000f4f0f0415">[email&#160;protected]</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title">Services</h2>
+                <ul class="cs_menu_widget cs_mp0">
+                  <li>
+                    <a href="service-details.html">WP Development</a>
+                  </li>
+                  <li>
+                    <a href="service-details.html">UX Research</a>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Branding Design</a>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Front-End Development</a>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Graphics Design</a>
+                  </li>
+                  <li>
+                    <a href="service-details.html">Ad Promotion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="cs_footer_item">
+                <h2 class="cs_widget_title">Links</h2>
+                <ul class="cs_menu_widget cs_mp0">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="service.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html"></a>Blog</li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cs_bottom_footer">
+          <div class="cs_bottom_footer_left">
+            <div class="cs_social_btns cs_style_1">
+              <a href="#" class="cs_center">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="cs_center">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="cs_center">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="#" class="cs_center">
+                <i class="fa-brands fa-slack"></i>
+              </a>
+            </div>
+          </div>
+          <div class="cs_copyright">Copyright © 2024 DataClap.</div>
+          <div class="cs_bottom_footer_right">
+            <ul class="cs_footer_links cs_mp0">
+              <li>
+                <a href="">Terms of Use</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Scroll Up -->
+    <span class="cs_scrollup">
+      <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 10L1.7625 11.7625L8.75 4.7875V20H11.25V4.7875L18.225 11.775L20 10L10 0L0 10Z" fill="currentColor"></path>
+      </svg>
+    </span>
+    <!-- End Scroll Up -->
+
+    <!-- Script -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/odometer.js"></script>
+    <script src="assets/js/ripples.min.js"></script>
+    <script src="assets/js/isotope.pkg.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

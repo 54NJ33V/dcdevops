@@ -9,13 +9,57 @@
     <!-- Favicon Icon -->
     <link rel="icon" href="assets/img/favicon.png">
     <!-- Site Title -->
-    <title>DataClap DevOps - DevOps as a Service</title>
+    <title>DataClap - CI/CD</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/odometer.css">
     <link rel="stylesheet" href="assets/css/style.css">
+      
+      
+      
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        /* container */
+.padded-boxes {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+
+/* boxes */
+.padded-boxes > * {
+    width:150%;
+    background:black;
+    border-radius:.4rem;
+}
+
+/* headings */
+.padded-boxes .heading {
+    background:black;
+    margin:0;
+    padding:1rem;
+    border-top-left-radius:.4rem;
+    border-top-right-radius:.4rem;
+}
+
+/* padded content */
+.padded-boxes .padded {
+    padding:.1rem 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .padded-boxes > * {
+        width:calc((100% - 4rem) / 3);
+    }
+}
+      </style>
+      
+      
+      
+      
   </head>
   <body class="cs_dark">
     <div class="cursor" id="client_cursor">View</div>
@@ -25,12 +69,12 @@
         <div class="cs_perloader_dots_wrap">
           <div class="cs_perloader_dots"><i></i><i></i><i></i><i></i></div>
         </div>
-      </div>
+      </div> 
       <span class="cs_perloader_text">Loading...</span>
     </div>
     <!-- End Preloader -->
-    <!-- Start Header Section -->
-    <header class="cs_site_header cs_style_1 cs_color_1 cs_sticky_header cs_primary_color">
+        <!-- Start Header Section -->
+        <header class="cs_site_header cs_style_1 cs_color_1 cs_sticky_header cs_primary_color">
       <div class="cs_main_header">
         <div class="container">
           <div class="cs_main_header_in">
@@ -39,95 +83,43 @@
                 <img src="assets/img/logo_white.svg" alt="Logo">
               </a>
             </div>
-            <div class="cs_main_header_center">
-              <div class="cs_nav cs_medium cs_primary_font">
+            <div class="cs_main_header_right">
+                  <div class="cs_nav cs_medium cs_primary_font">
                 <ul class="cs_nav_list">
                   <li class="menu-item-has-children cs_mega_menu">
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Services</a>
                     <ul class="cs_mega_wrapper">
                       <li class="menu-item-has-children">
-                        <a href="">Dark Version</a>
                         <ul>
-                          <li><a href="index.html">Creative Agency</a></li>
-                          <li><a href="marketing-agency.html">Marketing Agency</a></li>
-                          <li><a href="studio-agency.html">Studio Agency</a></li>
-                          <li><a href="digital-agency.html">Digital Agency</a></li>
-                          <li><a href="tech-startup.html">Tech Startup</a></li>
+                            <li><a href="DaaS.html">DevOps as a Service</a></li>
+                             <li><a href="DevSecOps.html">DevSecOps</a></li>
+                              <li><a href="InfrastructureasCode.html">Infrastructure as Code</a></li>
+                        <li><a href="SRE.html">SRE</a></li>
                         </ul>
                       </li>
                       <li class="menu-item-has-children">
-                        <a href="">Light Version</a>
                         <ul>
-                          <li><a href="index-light.html">Creative Agency</a></li>
-                          <li><a href="marketing-agency-light.html">Marketing Agency</a></li>
-                          <li><a href="studio-agency-light.html">Studio Agency</a></li>
-                          <li><a href="digital-agency-light.html">Digital Agency</a></li>
-                          <li><a href="tech-startup-light.html">Tech Startup</a></li>
+                                  <li><a href="CICD.html">CI/CD</a></li>
+                          <li><a href="ContinuousMonitoring.html">Continuous Monitoring</a></li>
+                     
+                               <li><a href="ContainerManagementandOrchestration.html">Container Management and Orchestration</a></li>
                         </ul>
                       </li>
                     </ul>
                   </li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                 
                   <li><a href="about.html">About</a></li>
-                  <li class="menu-item-has-children">
-                    <a href="service.html">Service</a>
-                    <ul>
-                      <li><a href="service.html">Service</a></li>
-                      <li><a href="service-details.html">Service Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="blog.html">Blog</a>
-                    <ul>
-                      <li><a href="blog.html">Blog Standard</a></li>
-                      <li><a href="blog-list.html">Blog List</a></li>
-                      <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="shop.html">Shop</a>
-                    <ul>
-                      <li>
-                        <a href="shop.html">Our Shop</a>
-                      </li>
-                      <li>
-                        <a href="shop-product-details.html">Shop Details</a>
-                      </li>
-                      <li>
-                        <a href="shop-cart.html">Cart</a>
-                      </li>
-                      <li>
-                        <a href="shop-checkout.html">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="shop-order-recived.html">Success Order</a>
-                      </li>
-                      <li>
-                        <a href="shop-wishlist.html">Wishlist</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="">Pages</a>
-                    <ul>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                      <li><a href="case-study-details.html">Case Study Details</a></li>
-                      <li><a href="team.html">Team</a></li>
-                      <li><a href="team-details.html">Team Details</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
-            </div>
-            <div class="cs_main_header_right">
-              <a href="contact-light.html" class="cs_btn cs_style_1 cs_btn_white">Getting Started</a>
+                <a href="contact.html" class="cs_btn cs_style_1 cs_btn_white">Getting Started</a>
             </div>
           </div>
         </div>
       </div>
     </header>
     <!-- End Header Section -->
+
 
     <!-- Start Hero -->
     <section class="cs_hero cs_style_5 position-relative text-center cs_center cs_ripple_activate cs_bg_filed" data-src="assets/img/tech-startup/hero-bg.jpeg">
@@ -137,18 +129,17 @@
             <img src="assets/img/icons/flower.svg" alt="Icon">
             Award Wining Startup on 2023
           </p> -->
-          <h1 class="cs_hero_title cs_fs_68 cs_white_color">Streamline Development with <br>DevOps as a Service
+          <h1 class="cs_hero_title cs_fs_68 cs_white_color">Streamline Your Development with Powerful CI/CD Services
+<br>
 
         </h1>
-          <p class="cs_hero_subtitle">Boost collaboration, accelerate delivery, and empower innovation.
-
-
+          <p class="cs_hero_subtitle"> Automate your software delivery pipeline for faster releases and fewer errors.
             </p>
           <div class="cs_hero_btns">
-            <a href="portfolio.html" class="cs_btn cs_style_1 cs_btn_accent">Talk to us
+            <a href="contact.html" class="cs_btn cs_style_1 cs_btn_accent">Talk to us
               <span><i class="fa-solid fa-arrow-right"></i></span>
             </a>
-            <a href="portfolio.html" class="cs_btn cs_style_1 cs_btn_accent">Check pricing
+            <a href="pricing.html" class="cs_btn cs_style_1 cs_btn_accent">Check pricing
               <span><i class="fa-solid fa-arrow-right"></i></span>
             </a>
           </div>
@@ -169,47 +160,30 @@
         <div class="row cs_gap_y_40 align-items-center">
           <div class="col-lg-5">
             <div class="cs_img_card cs_style_1 position-relative">
-              <img src="assets/img/creative-agency/about_1.jpeg" alt="About" class="cs_radius_5">
+              <img src="assets/img/creative-agency/cicd.jpg" alt="About" class="cs_radius_5">
             </div>
           </div>
           <div class="col-lg-6 offset-lg-1">
             <div class="cs_section_heading cs_style_1">
               
               <div class="cs_height_10 cs_height_lg_5"></div>
-              <h2 class="cs_section_title cs_fs_50 mb-0">What is DevOps as a Service (DaaS)?</h2>
+              <h2 class="cs_section_title cs_fs_50 mb-0">What are CI/CD Services?</h2>
               <div class="cs_height_30 cs_height_lg_30"></div>
-              <p class="m-0">DevOps as a Service (DaaS) is a managed approach to implementing the DevOps methodology. It provides businesses with the tools, expertise, and ongoing support to bridge the gap between development and operations teams. DaaS fosters a collaborative environment that automates processes, leading to faster development cycles, improved software quality, and reduced costs.</p>
+              <p class="m-0">CI/CD (Continuous Integration and Continuous Delivery) services automate the software development lifecycle (SDLC), enabling faster, more reliable deployments. Our CI/CD services integrate seamlessly with your existing tools and workflows to streamline development, testing, and deployment processes.</p>
             </div>
-            <div class="cs_height_40 cs_height_lg_30"></div>
-            <ul class="cs_list cs_style_1 cs_primary_font cs_primary_color cs_semibold cs_mp0 cs_fs_21">
-              <li>
-                <i class="fa-regular fa-circle-check"></i>End to End Service
-              </li>
-              <li>
-                <i class="fa-regular fa-circle-check"></i>Devops and SRE Specialists
-              </li>
-              <li>
-                <i class="fa-regular fa-circle-check"></i>Well Established Workflow
-              </li>
-            </ul>
-            <div class="cs_height_40 cs_height_lg_30"></div>
-            <a href="about.html" class="cs_btn cs_style_1">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></a>
-          </div>
-        </div>
-      </div>
-      <div class="cs_height_185 cs_height_lg_75"></div>
+            
     </section>
     <!-- End About Section -->
       
     <!-- Start Page Heading -->
     <div class="cs_height_70 cs_height_lg_70"></div>
-    <div class="cs_height_140 cs_height_lg_80"></div>
+   
     <div class="cs_section_heading cs_style_1 cs_type_3 ">
       <div class="container">
         
         <div class="cs_height_20 cs_height_lg_10"></div>
-        <h2 class="cs_section_title cs_fs_68 mb-0">How Does DaaS Work?</h2>
-        <p class="cs_hero_subtitle">Our DaaS offering follows a structured process to ensure a smooth transition and ongoing success:
+        <h2 class="cs_section_title cs_fs_68 mb-0">How Do Our CI/CD Services Work?</h2>
+        <p class="cs_hero_subtitle">Our CI/CD services follow a well-defined process to optimize your software delivery:
         </p>
       </div>
       
@@ -220,38 +194,47 @@
     <div class="cs_service_info">
       <div class="container">
         <div class="row align-items-center cs_gap_y_40">
-          <div class="col-lg-6">
-            <div class="cs_service_info_thumb cs_bg_filed" data-src="assets/img/others/service_details_2.png"></div>
+         <div class="col-lg-5">
+            <div class="cs_img_card cs_style_1 position-relative">
+              <img src="assets/img/creative-agency/cicd2.jpg" alt="About" class="cs_radius_5">
+            </div>
           </div>
           <div class="col-lg-6">
             <div class="row cs_gap_y_40">
               <div class="col-sm-6">
                 <div class="cs_number_box cs_style_1">
                   <h3 class="cs_number_box_number cs_semibold cs_accent_bg cs_fs_29 cs_center">01</h3>
-                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Assessment</h2>
-                  <p class="mb-0">We begin by evaluating your current development and operations landscape to identify areas for improvement.</p>
+                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Version Control Integration</h2>
+                  <p class="mb-0"> We integrate with your version control system (e.g., Git) to track code changes and automate builds.</p>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="cs_number_box cs_style_1">
                   <h3 class="cs_number_box_number cs_semibold cs_accent_bg cs_fs_29 cs_center">02</h3>
-                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Tool Implementation</h2>
-                  <p class="mb-0">We integrate industry-leading DevOps tools to automate tasks like configuration management, continuous integration and delivery (CI/CD), and infrastructure provisioning.
-                    </p>
+                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Automated Testing</h2>
+                  <p class="mb-0">We implement automated testing frameworks to ensure code quality and identify bugs early in the development cycle.
+
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="cs_number_box cs_style_1">
                   <h3 class="cs_number_box_number cs_semibold cs_accent_bg cs_fs_29 cs_center">03</h3>
-                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Workflow Optimization</h2>
-                  <p class="mb-0">Our experts collaborate with your teams to streamline workflows, fostering communication and breaking down silos.</p>
+                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Continuous Integration</h2>
+                  <p class="mb-0">We automate the process of merging code changes, building, and testing your application frequently..</p>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="cs_number_box cs_style_1">
                   <h3 class="cs_number_box_number cs_semibold cs_accent_bg cs_fs_29 cs_center">04</h3>
-                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Monitoring and Optimization</h2>
-                  <p class="mb-0">We continuously monitor your DevOps pipeline, identifying bottlenecks and implementing optimizations for peak performance.</p>
+                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Continuous Delivery</h2>
+                  <p class="mb-0"> We streamline the deployment process, allowing you to release new features and updates rapidly and reliably.</p>
+                </div>
+              </div>
+                 <div class="col-sm-6">
+                <div class="cs_number_box cs_style_1">
+                  <h3 class="cs_number_box_number cs_semibold cs_accent_bg cs_fs_29 cs_center">05</h3>
+                  <h2 class="cs_number_box_title cs_fs_29 cs_semibold">Monitoring & Feedback</h2>
+                  <p class="mb-0"> We continuously monitor deployments and gather feedback to inform future development iterations.</p>
                 </div>
               </div>
             </div>
@@ -260,60 +243,95 @@
       </div>
     </div>
     <!-- End Service Info -->
-       <div class="cs_height_70 cs_height_lg_70"></div>
-      <div class="cs_height_140 cs_height_lg_80"></div>
-    <div class="container">
-        <h2 class="cs_section_title cs_fs_68 mb-0">DaaS vs. Internal Management</h2>
-    <p class="cs_hero_subtitle">DaaS offers a compelling solution for businesses seeking to streamline development, improve efficiency, and accelerate innovation
-        </p>
-     <div class="cs_height_75 cs_height_lg_60"></div>
-<table>
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>DevOps as a Service (DaaS)</th>
-      <th>Internal DevOps Management</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Cost-Effectiveness</td>
-      <td>Reduced upfront costs and ongoing management fees.</td>
-      <td>Requires investment in personnel, training, and tools.</td>
-    </tr>
-    <tr>
-      <td>Expertise</td>
-      <td>Access to a team of experienced DevOps professionals.</td>
-      <td>Requires in-house expertise or hiring new talent.</td>
-    </tr>
-    <tr>
-      <td>Scalability</td>
-      <td>Easily scales to meet your growing business needs.</td>
-      <td>Requires additional resources and expertise for scaling.</td>
-    </tr>
-    <tr>
-      <td>Focus</td>
-      <td>Allows your teams to focus on core development activities.</td>
-      <td>DevOps management becomes an additional responsibility.</td>
-    </tr>
-    <tr>
-      <td>Time to Value</td>
-      <td>Quicker implementation and faster realization of benefits.</td>
-      <td>Longer time to establish and optimize DevOps practices.</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-      
-
-
-    <!-- Start CTA Section -->
+            <div class="cs_height_143 cs_height_lg_75"></div>
+      <div class="container">
+        <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Advantages</p>
+          <div class="cs_height_10 cs_height_lg_5"></div>
+          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Advantages of Outsourcing CI/CD Services</h2>
+        </div>
+        <div class="cs_height_85 cs_height_lg_45"></div>
+          
+          
+          
+          
+          
+          
+          
+            <div class="padded-boxes">
+    <section>
+         <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Faster Releases & Improved Efficiency</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">AutReduce time to market and streamline development cycles with automated processes.</p>
+             
+            </div>
+        <div class="padded">
+            <!-- box 1 content -->
+        </div>
+    </section>
+    <section>
+      <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Enhanced Quality & Fewer Errors</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">Automate testing to detect and fix bugs early, leading to higher quality software.</p>
+              
+            </div>
+        <div class="padded">
+            <!-- box 2 content -->
+        </div>
+    </section>
+    <section>
+           <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Reduced Costs</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">Eliminate the need for specialized CI/CD expertise and infrastructure investments.</p>
+              
+            </div>
+        <div class="padded">
+            <!-- box 3 content -->
+        </div>
+        </section>
+              <section>
+          <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Increased Developer Productivity</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">Free developers from manual deployment tasks, allowing them to focus on core development activities.</p>
+              
+            </div>
+        <div class="padded">
+            <!-- box 4 content -->
+        </div>
+        </section>
+              <section>
+          <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Scalability & Flexibility</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">Easily adapt your CI/CD pipeline to accommodate changes in project size and complexity.</p>
+              
+            </div>
+        <div class="padded">
+            <!-- box 5 content -->
+        </div>
+        </section>
+              <section>
+          <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
+              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.html">Expertise & Best Practices</a></h2>
+              <p class="cs_iconbox_subtitle cs_gray_color_2">Benefit from our CI/CD expertise to implement best practices and ensure optimal performance.</p>
+              
+            </div>
+        <div class="padded">
+            <!-- box 6 content -->
+        </div>
+        </section>
+          </div>
+          
+          
+          
+        
+      </div>
+          <!-- Start CTA Section -->
     <section>
         <div class="cs_height_150 cs_height_lg_80"></div>
         <div class="container">
           <div class="cs_cta cs_style_1 cs_bg_filed position-relative cs_radius_5 overflow-hidden text-center" data-src="assets/img/tech-startup/cta_bg.jpeg">
             <div class="cs_cta_in position-relative">
-              <h2 class="cs_cta_title cs_fs_50 cs_white_color mb-0">Contact us to learn how our DaaS offering can empower your development teams</h2>
+              <h2 class="cs_cta_title cs_fs_50 cs_white_color mb-0">Contact us today to discuss your CI/CD needs and learn how we can help you achieve faster, more reliable deployments.</h2>
               <div class="cs_height_45 cs_height_lg_30"></div>
               <a href="contact.html" class="cs_btn cs_style_1 cs_btn_white">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
@@ -322,8 +340,8 @@
         <div class="cs_height_150 cs_height_lg_80"></div>
       </section>
       <!-- End CTA Section -->
-      <!-- Start Footer -->
-      <footer class="cs_fooer cs_bg_filed" data-src="assets/img/footer_bg.jpeg">
+    <!-- Start Footer -->
+       <footer class="cs_fooer cs_bg_filed" data-src="assets/img/footer_bg.jpeg">
         <div class="cs_fooer_main">
           <div class="container">
             <div class="row">
@@ -339,14 +357,17 @@
                 <div class="cs_footer_item">
                   <h2 class="cs_widget_title">Services</h2>
                   <ul class="cs_menu_widget cs_mp0">
-                    <li>
-                      <a href="service-details.html">DevOps as a Service</a>
+                       <li>
+                      <a href="DaaS.html">DevOps as a Service</a>
                     </li>
                     <li>
-                      <a href="service-details.html">DevSecOps</a>
+                      <a href="DevSecOps.html">DevSecOps</a>
                     </li>
                     <li>
-                      <a href="service-details.html">Infrastructure as a Code</a>
+                      <a href="InfrastructureasCode.html">Infrastructure as a Code</a>
+                    </li>
+                       <li>
+                      <a href="SRE.html">SRE</a>
                     </li>
                     
                   </ul>
@@ -356,19 +377,16 @@
                 <div class="cs_footer_item">
                   
                   <ul class="cs_menu_widget cs_mp0">
-                    <li>
-                      <a href="service-details.html">SRE Services</a>
+                      
+                   <li>
+                      <a href="CICD.html">CI/CD</a>
                     </li>
                     <li>
-                      <a href="service-details.html">CI/CD</a>
+                      <a href="ContinuousMonitoring.html">Continuous Monitoring</a>
                     </li>
                     <li>
-                      <a href="service-details.html">Container Management & Orchestration</a>
+                      <a href="ContainerManagementandOrchestration.html">Container Management & Orchestration</a>
                     </li>
-                    <li>
-                      <a href="service-details.html">Continuous Monitoring</a>
-                    </li>
-                    
                   </ul>
                 </div>
               </div>
@@ -377,12 +395,14 @@
                 <div class="cs_footer_item">
                   
                   <ul class="cs_menu_widget cs_mp0">
-                    
                     <li>
-                      <a href="service-details.html">Pricing</a>
+                      <a href="about.html">About</a>
                     </li>
                     <li>
-                      <a href="service-details.html">Contact</a>
+                      <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
                     </li>
                     
                   </ul>
